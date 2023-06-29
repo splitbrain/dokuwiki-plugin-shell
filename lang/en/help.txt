@@ -1,0 +1,9 @@
+This tool gives you shell-like access to the server the wiki is running on. It is useful for debugging and maintenance, but can also be used to do bad things to the server. Use with caution. All commands are executed as the user the web server runs as.
+
+In addition to what the server's shell can do, you can also use the following commands:
+
+  * ''download <file>'' - Download a file from the server. The file will be sent to your browser, so you can save it to your computer.
+  * ''upload <file>'' - Upload a file to the server. Your browser will ask you for a file to upload and it will be stored as the file you specified.
+  * ''clear'' - Clear the screen.
+
+Please keep in mind that this is not a real interactive shell. It is a web page that sends commands to the server and displays the output. It is not possible to run interactive programs like ''vi'' or ''top''.

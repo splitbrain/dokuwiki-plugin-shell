@@ -1,0 +1,7 @@
+base   shell
+author Andreas Gohr
+email  andi@splitbrain.org
+date   2023-06-29
+name   shell plugin
+desc   Access a simple, web based shell via the admin interface
+url    https://www.dokuwiki.org/plugin:shell
